@@ -4,7 +4,8 @@
   "description": "This is a blog created to expose the work done by Richard Evans Schulter in the Amazon.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve --mode development --confing webpack.config.js",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
