@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Ubuntu";
+    src: url(../assets/fonts/ubuntu-regular.woff) format("woff"),
+         url(../assets/fonts/ubuntu-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --black: #353535;
+    --white: #FFFFFF;
+    --grey: #D2D7DF;
+    --light-brown: #BDBBB0;
+    --dark-brown: #8A897C;
+    --title: 2rem;
+    --text: 1.4rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Ubuntu";
+    font-size: 62.5%; /* 1rem: 10px*/
+}
+
