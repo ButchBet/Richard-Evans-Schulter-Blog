@@ -1,0 +1,20 @@
+{
+  "name": "richard-evans-schulter-blog",
+  "version": "1.0.0",
+  "description": "This is a blog created to expose the work done by Richard Evans Schulter in the Amazon.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButchBet/Richard-Evans-Schulter-Blog.git"
+  },
+  "keywords": [],
+  "author": "pescuesoCaliente2000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButchBet/Richard-Evans-Schulter-Blog/issues"
+  },
+  "homepage": "https://github.com/ButchBet/Richard-Evans-Schulter-Blog#readme"
+}
