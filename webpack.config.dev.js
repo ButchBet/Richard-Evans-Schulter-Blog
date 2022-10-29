@@ -12,7 +12,7 @@ module.exports = {
         clean: true,
     },
 
-    mode: 'development', 
+    mode: 'development',
 
     resolve: {
         extensions: ['.js'],
@@ -61,13 +61,17 @@ module.exports = {
             filename: './index.html'
         }),
 
-        new miniCssExtractPlugin(),
+        new miniCssExtractPlugin({
+            filename: 'styles/[name].[contenthash].css'
+        }),
     ],
 
-    devServer: {
-        static: path.join(__dirname, 'dist'),
-        compress: true,
-        port: 3006,
-        open: true,
-    }
+    // devServer: {
+    //     static: path.join(__dirname, 'dist'),
+    //     compress: true,
+    //     port: 3006,
+    //     open: true,
+    // },
+    
+    watch: true,
 }

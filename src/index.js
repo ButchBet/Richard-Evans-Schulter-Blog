@@ -1,6 +1,7 @@
-import image1 from '@images/image.jpg';
 import '@styles/styles.css';
 import '@styles/tablet.css';
 import '@styles/desktop.css';
+import menuImg from './assets/images/menu.png';
 
-document.getElementById('image').src = `${image1}`;
+// Inserting the image menu image
+document.getElementById('menuImg').src = menuImg;
