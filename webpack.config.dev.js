@@ -13,7 +13,7 @@ module.exports = {
     },
 
     mode: 'development', 
-    
+
     resolve: {
         extensions: ['.js'],
         alias: {
@@ -64,10 +64,11 @@ module.exports = {
         new miniCssExtractPlugin(),
     ],
 
-    optimization: {
-        minimize: true,
-        minimizer: [
-
-        ]
-    },
+    devServer: {
+        static: path.join(__dirname, 'dist'),
+        compress: true,
+        historyFallback: true,
+        port: 3006,
+        open: true,
+    }
 }
