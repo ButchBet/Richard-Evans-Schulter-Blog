@@ -12,8 +12,8 @@ module.exports = {
         clean: true,
     },
 
-    mode: 'production',
-
+    mode: 'development', 
+    
     resolve: {
         extensions: ['.js'],
         alias: {

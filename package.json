@@ -4,7 +4,7 @@
   "description": "This is a blog created to expose the work done by Richard Evans Schulter in the Amazon.",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js",
     "build": "webpack --config webpack.config.js"
   },
   "repository": {
