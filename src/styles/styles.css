@@ -29,5 +29,92 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-body {
+/* 
+1. position
+2. box model
+3. typography
+4. visual
+5. ohter
+ */
+
+ /* 1 */
+ .header__title,
+ .title,
+ .menu {
+    display: flex;
+ }
+
+ .header__title,
+ .title,
+ .menu {
+    flex-flow: row wrap;
+ }
+
+ .header__title {
+    justify-content: space-between;
+ }
+
+ .title {
+    justify-content: center;
+ }
+
+ .header__title,
+ .title,
+ .menu {
+    align-content: center;
+ }
+
+ .header__title {
+    position: relative;
+ }
+
+ 
+ /* 2 */
+ .header {
+    /* height: 200px; */
 }
+
+.header__title,
+.header__nav {
+    padding: 20px;
+}
+
+
+.header__title {
+    height: 50%;
+    gap: 10px;
+    border-bottom: .5px solid var(--white);
+}
+
+.menu {
+    height: 100%;
+    width: 60px;
+}
+
+.menu__img {
+    width: 100%;
+}
+
+.title {
+    width: calc(100% - 70px);
+}
+
+.title__link {
+    text-align: center;
+}
+ /* 3 */
+ 
+ /* 4 */
+ .header {
+    /* background: url('https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/amazonas/reserva-natural-amazonas-800.jpg'); */
+    /* background-clip: unset; */
+    background-size: cover;
+    background-attachment: fixed;
+
+    background: var(--dark-brown);
+ }
+
+ .header__title {
+ }
+
+ /* 5 */
