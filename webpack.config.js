@@ -7,8 +7,19 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js',
+        filename: '[name].[contenthash].js',
+        assetModuleFilename: 'assets/fonts/[name].[contenthash].[ext]',
         clean: true,
+    },
+
+    resolve: {
+        extensions: ['.js'],
+        alias: {
+            "@fonts": path.resolve(__dirname, 'src/assets/fonts'),
+            "@images": path.resolve(__dirname, 'src/assets/images'),
+            "@components": path.resolve(__dirname, 'src/assets/components'),
+            "@styles": path.resolve(__dirname, 'src/styles'),
+        }
     },
 
     module: {
@@ -31,7 +42,12 @@ module.exports = {
 
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/,
-                type: 'asset/resource',
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[contenthash].[ext]',
+                    outputPath: './assets/images/',
+                    publicPath: './assets/images/'   
+                }
             }
         ]
     },
@@ -53,5 +69,5 @@ module.exports = {
         ]
     },
 
-    watch: true,
+    // watch: true,
 }
