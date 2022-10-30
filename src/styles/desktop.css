@@ -1,4 +1,23 @@
-@media (min-width: 900px) {
-    body {
+@media (min-width: 804px) {
+    .title {
+        width: 100%;
+    }
+
+    .header__nav { 
+        position:initial;
+        background: inherit; 
+        display: block !important;
+    }
+
+    .close,
+    .menu {
+        display: none;
+    }
+
+    .navList {
+        flex-flow: row wrap;
+        gap: 15px;
+        font-size: 1.3rem;
+        justify-content: space-evenly;
     }
 }

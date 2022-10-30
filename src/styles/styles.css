@@ -40,7 +40,8 @@ html {
  /* 1 */
  .header__title,
  .title,
- .menu {
+ .menu,
+ .navList {
     display: flex;
  }
 
@@ -50,11 +51,16 @@ html {
     flex-flow: row wrap;
  }
 
+.navList {
+    flex-flow: column;
+}
+
  .header__title {
     justify-content: space-between;
  }
 
- .title {
+ .title,
+ .navList {
     justify-content: center;
  }
 
@@ -64,14 +70,24 @@ html {
     align-content: center;
  }
 
+.element {
+    justify-content: space-evenly;
+ }
+
  .header__title {
     position: relative;
+ }
+
+ .header__nav,
+ .close {
+    position: absolute;
  }
 
  
  /* 2 */
  .header {
     /* height: 200px; */
+    margin-bottom: 10px;
 }
 
 .header__title,
@@ -87,8 +103,7 @@ html {
 }
 
 .menu {
-    height: 100%;
-    width: 60px;
+    width: 50px;
 }
 
 .menu__img {
@@ -96,14 +111,64 @@ html {
 }
 
 .title {
-    width: calc(100% - 70px);
+    width: calc(100% - 60px);
 }
 
 .title__link {
     text-align: center;
 }
+
+.header__nav,
+.components {
+    width: 100%;
+}
+.header__nav {
+    padding-left: 40px;
+}
+
+.header__nav,
+.navList {
+    height: 100%;
+}
+
+.header__nav,
+.close {
+    top: 0;
+}
+
+.header__nav {
+    left: 0;
+}
+
+.close {
+    right: 0;
+}
+
+.close {
+    padding: 5px 15px;
+}
+
+.navList {
+    gap: 55px;
+}
+
+.components {
+    padding: 10px;
+}
+
  /* 3 */
- 
+.close {
+    font-weight: 800;
+}
+
+.navList {
+    list-style: none;
+}
+
+.navList,
+.close {
+    font-size: 1.6rem;
+}
  /* 4 */
  .header {
     /* background: url('https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/amazonas/reserva-natural-amazonas-800.jpg'); */
@@ -117,4 +182,53 @@ html {
  .header__title {
  }
 
+ .header__nav {
+    background: var(--white);
+ }
+
+ .close {
+    background: var(--dark-brown);
+    color: var(--white);
+ }
+
+ .navList {
+    color: var(--black);
+ }
+
+ .title__link {
+    text-decoration: none;
+ }
+
+ .title__link {
+    color: var(--white);
+ }
+
+.navList {
+ }
+
+ .components {
+    background: red;
+ }
+
  /* 5 */
+ .menu,
+ .close,
+ .navList {
+    cursor: pointer;
+ }
+ .menu:active {
+    transform: scale(.98);
+ }
+
+ .close,
+ .navList {
+    user-select: none;
+ }
+
+.navList__item:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
