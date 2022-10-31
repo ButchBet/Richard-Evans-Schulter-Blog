@@ -70,6 +70,10 @@ html {
     align-content: center;
  }
 
+ .navList {
+    align-items: center;
+ }
+
 .element {
     justify-content: space-evenly;
  }
