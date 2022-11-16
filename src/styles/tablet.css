@@ -1,3 +1,42 @@
-@media (min-width: 658px) {
+@media (min-width: 481px) {
+    .header {
+        margin-bottom: 10px;
+    }
     
+    .header__title {
+        justify-content: center;
+        padding: 28px 36px;
+    }
+
+    .title {
+        width: 142px;
+    }
+    
+    .header__nav { 
+        position:initial;
+        background: inherit; 
+        display: block !important;
+    }
+
+    .close,
+    .menu {
+        display: none;
+    }
+
+    .navList {
+        flex-flow: row wrap;
+        gap: 0px;
+        font-size: 1.3rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navList__item {
+        width: auto;
+        border: 1px solid #221F20;
+        width: 50%;
+        height: 54px;
+        padding: 10px 5px;
+        letter-spacing: 2.5px;
+    }
 }

@@ -2,6 +2,7 @@ import '@styles/styles.css';
 import '@styles/tablet.css';
 import '@styles/desktop.css';
 import menuImg from '@images/icons/menu.png';
+import titleImg from "@images/logos/pageLogo2.png";
 const introduccionTemplate = require('./components/introduccionTemplate.js');
 const putumayoTemplate = require('./components/putumayoTemplate.js');
 const misionCaucheraTemplate = require('./components/misionCaucheraTemplate.js');
@@ -11,6 +12,7 @@ const plantaTemplate = require('./components/plantaTemplate.js');
 
 // Inserting the image menu image
 document.getElementById('menuImg').src = menuImg;
+document.getElementById("titleImg").src = titleImg;
 
 // Script to catch the click event in each nav item
 const navigation = Array.from(document.getElementsByClassName('navList__item'));

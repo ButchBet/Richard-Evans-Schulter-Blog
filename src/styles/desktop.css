@@ -1,23 +1,2 @@
-@media (min-width: 810px) {
-    .title {
-        width: 100%;
-    }
-
-    .header__nav { 
-        position:initial;
-        background: inherit; 
-        display: block !important;
-    }
-
-    .close,
-    .menu {
-        display: none;
-    }
-
-    .navList {
-        flex-flow: row wrap;
-        gap: 15px;
-        font-size: 1.3rem;
-        justify-content: space-evenly;
-    }
+@media (min-width: 769px) {
 }

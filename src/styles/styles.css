@@ -26,7 +26,6 @@
 
 html {
     font-family: 'Merriweather', serif;
-    font-style: italic;
     font-size: 62.5%; /* 1rem: 10px*/
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -92,25 +91,24 @@ html {
 
  
  /* 2 */
- .header {
-    /* height: 200px; */
-    margin-bottom: 10px;
-}
 
+ .header {
+    padding-top: 10px;
+ }
 .header__title,
 .header__nav {
-    padding: 20px;
+    padding: 0px 36px;
 }
 
 
 .header__title {
-    height: 50%;
+    height: 44px;
     gap: 10px;
     border-bottom: .5px solid var(--white);
 }
 
 .menu {
-    width: 50px;
+    width: 30px;
 }
 
 .menu__img {
@@ -118,19 +116,21 @@ html {
 }
 
 .title {
-    width: calc(100% - 60px);
+    width: 100px;
 }
 
-.title__link {
+.title__img {
+    width: 100%;;
+}
+
+.option {
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .header__nav,
 .components {
     width: 100%;
-}
-.header__nav {
-    padding-left: 40px;
 }
 
 .header__nav,
@@ -159,6 +159,14 @@ html {
     gap: 55px;
 }
 
+.navList__item {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #221F20;
+    font-size:1.4rem;
+}
+
 .components {
     padding: 10px;
 }
@@ -176,10 +184,16 @@ html {
 .close {
     font-size: 1.6rem;
 }
+
+.option {
+    line-height: 51px;
+    margin: 3% 0;
+    letter-spacing: 4.5px;
+}
  /* 4 */
  .header {
     /* background: url('https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/amazonas/reserva-natural-amazonas-800.jpg'); */
-    background: var(--background);
+    /* background: var(--background); */
     /* background: url('https://infoamazonia.org/wp-content/uploads/2020/06/bosques_de_colombia_1.jpg?fbclid=IwAR3b2inbOEVz5YN69_RB27ewBOH43IQB92pAvyBNFmY5ef-8lMqVpvLoWPE'); */
     /* background-clip: border-box; */
     /* background-origin: border-box; */
@@ -196,24 +210,19 @@ html {
     background: transparent !important;
 } */
 
+.option {
+    background: url(http://srvboston.com/images/bk-header.png) top center no-repeat;
+}
+
 .header__nav {
     background: var(--white);
 }
 
  .close {
-    background: var(--dark-brown);
-    color: var(--white);
+    color: var(--dark-brown);
  }
 
  .navList {
-    color: var(--black);
- }
-
- .title__link {
-    text-decoration: none;
- }
-
- .title__link {
     color: var(--black);
  }
 
@@ -239,10 +248,15 @@ html {
     user-select: none;
  }
 
-.navList__item:hover {
-    text-decoration: underline;
-}
-
 .hidden {
     display: none;
+}
+
+.selected {
+    opacity: .38;
+}
+
+.close:hover {
+    color: var(--white);
+    background: var(--dark-brown);
 }
