@@ -1,8 +1,4 @@
-@media (min-width: 481px) {
-    .header {
-        margin-bottom: 10px;
-    }
-    
+@media (min-width: 481px) {    
     .header__title {
         justify-content: center;
         padding: 28px 36px;
@@ -29,6 +25,7 @@
         font-size: 1.3rem;
         justify-content: center;
         align-items: center;
+        padding: 0;
     }
 
     .navList__item {

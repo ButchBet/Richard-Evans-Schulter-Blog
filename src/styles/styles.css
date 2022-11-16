@@ -93,11 +93,11 @@ html {
  /* 2 */
 
  .header {
-    padding-top: 10px;
+    padding: 3px 20px;
  }
 .header__title,
 .header__nav {
-    padding: 0px 36px;
+    /* padding: 0px 36px; */
 }
 
 
@@ -157,6 +157,7 @@ html {
 
 .navList {
     gap: 55px;
+    padding: 0 50px;
 }
 
 .navList__item {
@@ -211,7 +212,7 @@ html {
 } */
 
 .option {
-    background: url(http://srvboston.com/images/bk-header.png) top center no-repeat;
+    /* background: url(http://srvboston.com/images/bk-header.png) top center no-repeat; */
 }
 
 .header__nav {
