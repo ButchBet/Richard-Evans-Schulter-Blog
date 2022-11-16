@@ -1,7 +1,8 @@
 @font-face {
     font-family: "Ubuntu";
     src: url(@fonts/ubuntu-regular.woff) format("woff"),
-         url(@fonts/ubuntu-regular.woff2) format("woff2");
+         url(@fonts/ubuntu-regular.woff2) format("woff2"),
+         url(@fonts/Merriweather-Italic.ttf) format("ttf");
     font-weight: 400;
     font-style: normal;
 }
@@ -14,6 +15,7 @@
     --dark-brown: #8A897C;
     --title: 2rem;
     --text: 1.4rem;
+    --background: #9ED5C5;
 }
 
 * {
@@ -23,7 +25,8 @@
 }
 
 html {
-    font-family: "Ubuntu";
+    font-family: 'Merriweather', serif;
+    font-style: italic;
     font-size: 62.5%; /* 1rem: 10px*/
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -176,19 +179,26 @@ html {
  /* 4 */
  .header {
     /* background: url('https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/amazonas/reserva-natural-amazonas-800.jpg'); */
-    /* background-clip: unset; */
-    background-size: cover;
-    background-attachment: fixed;
+    background: var(--background);
+    /* background: url('https://infoamazonia.org/wp-content/uploads/2020/06/bosques_de_colombia_1.jpg?fbclid=IwAR3b2inbOEVz5YN69_RB27ewBOH43IQB92pAvyBNFmY5ef-8lMqVpvLoWPE'); */
+    /* background-clip: border-box; */
+    /* background-origin: border-box; */
+    /* background: url("https://external.xx.fbcdn.net/emg1/v/t13/9730441728145458842?url=https%3A%2F%2Fmedioambiente.uexternado.edu.co%2Fwp-content%2Fuploads%2Fsites%2F19%2F2018%2F04%2Ffondo-de-amazona.jpg&fb_obo=1&utld=edu.co&stp=c0.5000x0.5000f_dst-emg0_p150x78_q75&_nc_eui2=AeGWEVJK9TMLJcsi0VjElU5xtjLni1vdaCK2MueLW91oIkoiPPl-vf1vbEr39zXbzQnPj6auYFkzkOPdsX7Pr7Qw&ccb=13-1&oh=06_AbFM1UyZDKoynCRt1ivFBaRfoAsn8ol61AuvuP-wLk1IMA&oe=6364751A&_nc_sid=8490f6"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
 
-    background: var(--dark-brown);
  }
 
- .header__title {
- }
+ 
 
- .header__nav {
+/* .header__title,
+.header__nav {
+    background: transparent !important;
+} */
+
+.header__nav {
     background: var(--white);
- }
+}
 
  .close {
     background: var(--dark-brown);
@@ -204,7 +214,7 @@ html {
  }
 
  .title__link {
-    color: var(--white);
+    color: var(--black);
  }
 
 .navList {
