@@ -1,2 +1,25 @@
 @media (min-width: 769px) {
+    body {
+        padding: 0 10px;
+    }
+    .header {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+    }
+
+    .header__title {
+        width: 24%;
+        height: auto;
+        padding: 0;
+    }
+
+    .header__nav {
+        width: 76%;
+        padding: 0;
+    }
+
+    .option {
+        width: 100%;
+    }
 }
