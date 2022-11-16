@@ -1,7 +1,7 @@
 import '@styles/styles.css';
 import '@styles/tablet.css';
 import '@styles/desktop.css';
-import menuImg from '@images/menu.png';
+import menuImg from '@images/icons/menu.png';
 const introduccionTemplate = require('./components/introduccionTemplate.js');
 const putumayoTemplate = require('./components/putumayoTemplate.js');
 const misionCaucheraTemplate = require('./components/misionCaucheraTemplate.js');
