@@ -67,4 +67,14 @@
         justify-content: space-between;
         padding-left: 23px;
     }
+
+    .navList li:nth-child(1),
+    .navList li:nth-child(2) {
+        border-top: 0;
+    }
+
+    .navList li:nth-child(5),
+    .navList li:nth-child(6) {
+        border-bottom: 0;
+    }
 }
