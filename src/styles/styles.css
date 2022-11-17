@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
+
 @font-face {
-    font-family: "Ubuntu";
+    font-family: "Ubuntu", "Stardos Stencil";
     src: url(@fonts/ubuntu-regular.woff) format("woff"),
          url(@fonts/ubuntu-regular.woff2) format("woff2"),
-         url(@fonts/Merriweather-Italic.ttf) format("ttf");
+         url(@fonts/StardosStencil-Regular.ttf) format("ttf");
     font-weight: 400;
     font-style: normal;
 }
@@ -15,7 +17,12 @@
     --dark-brown: #8A897C;
     --title: 2rem;
     --text: 1.4rem;
-    --background: #9ED5C5;
+    --background1: #9ED5C5;
+    --background2: #527880;
+    --background3: #CA492F;
+    --background4: #BE2E2A;
+    --background5: #335466;
+    --background6: #011552;
 }
 
 * {
@@ -25,7 +32,7 @@
 }
 
 html {
-    font-family: 'Merriweather', serif;
+    font-family: 'Stardos Stencil';
     font-size: 62.5%; /* 1rem: 10px*/
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -43,17 +50,24 @@ html {
  .header__title,
  .title,
  .menu,
- .navList {
+ .navList,
+ .introduction,
+ .introduction__list,
+ .introduction__section,
+ .components  {
     display: flex;
  }
 
  .header__title,
  .title,
- .menu {
+ .menu,
+ .introduction__section {
     flex-flow: row wrap;
  }
 
-.navList {
+.navList,
+.introduction,
+.introduction__list  {
     flex-flow: column;
 }
 
@@ -62,7 +76,8 @@ html {
  }
 
  .title,
- .navList {
+ .navList,
+ .components {
     justify-content: center;
  }
 
@@ -94,12 +109,7 @@ html {
 
  .header {
     padding: 3px 20px;
- }
-.header__title,
-.header__nav {
-    /* padding: 0px 36px; */
 }
-
 
 .header__title {
     height: 44px;
@@ -111,7 +121,8 @@ html {
     width: 30px;
 }
 
-.menu__img {
+.menu__img,
+.title__img {
     width: 100%;
 }
 
@@ -119,18 +130,21 @@ html {
     width: 100px;
 }
 
-.title__img {
-    width: 100%;;
-}
-
 .option {
     margin-bottom: 10px;
     text-align: center;
+    line-height: 51px;
+    margin: 3% 0;
+    letter-spacing: 4.5px;
 }
 
 .header__nav,
 .components {
     width: 100%;
+}
+
+.introduction {
+    max-width: 800px;
 }
 
 .header__nav,
@@ -172,6 +186,29 @@ html {
     padding: 10px;
 }
 
+.introduction {
+    gap: 40px;
+}
+
+.introduction__figure,
+.introduction__img {
+    width: 100%;
+}
+
+.introduction__list  {
+    gap: 10px;
+    padding: 0 20px
+}
+
+.introduction__title {
+    margin-bottom: 30px;
+}
+
+.introduction__text,
+.introduction__figure,
+.introduction__list {
+    margin-bottom: 15px;
+}
  /* 3 */
 .close {
     font-weight: 800;
@@ -186,11 +223,23 @@ html {
     font-size: 1.6rem;
 }
 
-.option {
-    line-height: 51px;
-    margin: 3% 0;
-    letter-spacing: 4.5px;
+.components {
+    font-family: "Ubuntu";
 }
+
+.introduction {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+.introduction__title {
+    text-align: left;
+}
+
+.introduction__title {
+    font-size: 2rem;
+}
+
  /* 4 */
  .header {
     /* background: url('https://cdn.colombia.com/images/v2/turismo/sitios-turisticos/amazonas/reserva-natural-amazonas-800.jpg'); */
@@ -228,26 +277,39 @@ html {
  }
 
 .navList {
- }
+}
 
- .components {
-    background: red;
- }
+.introduction {
+    background: var(--background1);
+    padding: 5px;
+}
+
+.introduction__title,
+.introduction__list,
+.introduction__text,
+.introduction__description {
+    color: var(--white);
+}
+
+.introduction__list {
+    list-style:disc;
+}
 
  /* 5 */
  .menu,
  .close,
  .navList {
     cursor: pointer;
- }
- .menu:active {
-    transform: scale(.98);
- }
+}
 
- .close,
- .navList {
+.menu:active {
+    transform: scale(.98);
+}
+
+.close,
+.navList {
     user-select: none;
- }
+}
 
 .hidden {
     display: none;

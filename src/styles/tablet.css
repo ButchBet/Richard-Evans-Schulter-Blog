@@ -39,4 +39,32 @@
         align-items: center;
         letter-spacing: 2.5px;
     }
+
+    .introduction {
+        padding: 5px 24px;
+    }
+
+    .introduction__section {
+        align-items: center;
+    }
+
+    .introduction__title {
+        width: 100%;
+    }
+
+    .introduction__figure {
+        width: 44%;
+    }
+
+    .introduction__list,
+    .introduction--lessWidth {
+        width: 55%;
+    }
+
+    .introduction--lessWidth {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding-left: 23px;
+    }
 }

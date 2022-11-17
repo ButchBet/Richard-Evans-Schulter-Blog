@@ -23,4 +23,8 @@
     .option {
         width: 100%;
     }
+
+    .introduction {
+        padding: 5px 40px;
+    }
 }
