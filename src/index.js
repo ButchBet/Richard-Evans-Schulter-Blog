@@ -66,48 +66,64 @@ navigation.forEach(item => {
                 appendComponent(introduccionTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
         
             case 'putumayo':
                 appendComponent(putumayoTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
 
             case 'misionCauchera':
                 appendComponent(misionCaucheraTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
 
             case 'apaporis':
                 appendComponent(apaporisTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
 
             case 'culturaIndigena':
                 appendComponent(culturaIndigenaTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
 
             case 'planta':
                 appendComponent(plantaTemplate.main);
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
 
             case 'menuImg': 
                 headerNav.classList.remove('hidden');
 
                 option.style.display = "none";
+
+                components.style.display = "none";
                 break;
 
             case 'close':
                 headerNav.classList.add('hidden');
 
                 option.style.display = "block";
+
+                components.style.display = "block";
                 break;
                 
         }
