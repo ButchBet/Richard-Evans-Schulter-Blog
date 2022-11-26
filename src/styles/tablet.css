@@ -40,28 +40,36 @@
         letter-spacing: 2.5px;
     }
 
-    .introduction {
+    .template {
         padding: 5px 24px;
     }
 
-    .introduction__section {
+    .template__section {
         align-items: center;
     }
 
-    .introduction__title {
+    .template__title {
         width: 100%;
     }
 
-    .introduction__figure {
+    .template__figure {
         width: 44%;
     }
 
-    .introduction__list,
-    .introduction--lessWidth {
+    .template__list,
+    .template--lessWidth {
         width: 55%;
     }
 
-    .introduction--lessWidth {
+    .template--moreWidth {
+        width: 50%;
+    }
+
+    .template--wholeWidth {
+        width: 100%;
+    }
+
+    .template--lessWidth {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
