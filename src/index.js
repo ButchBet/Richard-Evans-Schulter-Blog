@@ -26,6 +26,34 @@ import salvadorChindoyImage from "@images/salvadorChindoy.png";
 import indogenousImage from "@images/indogena.jpg";
 import aYoungKamentsáBoyImage from "@images/UnJovenDeKamentsa.jpg";
 
+// Misión Cauchera images
+
+// Apaporis images
+import santAugustineStatue1 from "@images/estatuaSanAgustin1.jpg";
+import santAugustineStatue2 from "@images/estatuaSanAgustin2.jpg";
+import santAugustineStatue3 from "@images/estatuaSanAgustin3.jpg";
+import santAugustineStatue4 from "@images/estatuaSanAgustin4.jpg";
+import santAugustineStatue5 from "@images/estatuaSanAgustin5.jpg";
+import macayaRiver from "@images/rioMacaya.jpg";
+import chiribiqueteHill from "@images/cerroChiribiquete.jpg";
+import SchultesSpecimen3Image from "@images/especimenDeSchultes3.jpg";
+import vellozia1 from "@images/schultes1.jpg";
+import heveaNitidia from "@images/heveaNitidia.jpg";
+import aiaiuRiver from "@images/rioAiaiu.jpg";
+import castleHill from "@images/cerroCastillo.jpg";
+import naviaSchultesiana1 from "@images/naviaSchultesiana1.jpg";
+import naviaSchultesiana2 from "@images/naviaSchultesiana2.jpg";
+import bellHill1 from "@images/bellHill1.jpg";
+import castañoUribe from "@images/castañoUribe.jpg";
+import richardImage2 from "@images/richard2.jpg";
+
+// Cultura indígena images
+
+// Virola images
+import virola1 from "@images/virola1.jpg";
+import virola2 from "@images/virola2.jpg";
+
+
 // Templates
 const introduccionTemplate = require('./components/introduccionTemplate.js');
 const putumayoTemplate = require('./components/putumayoTemplate.js');
@@ -37,6 +65,7 @@ const virolaTemplate = require('./components/virolaTemplate.js');
 const components = document.getElementById('components');
 components.appendChild(introduccionTemplate.main); // Append the introduction since the begining
 insertAssetsIntroduction();
+// insertAssetsApaporis();
 
 document.getElementById('menuImg').src = menuImg;
 document.getElementById('titleImg').src = titleImg;
@@ -103,6 +132,8 @@ navigation.forEach(item => {
                 option.style.display = "block";
 
                 components.style.display = "flex";
+
+                insertAssetsApaporis();
                 break;
 
             case 'culturaIndigena':
@@ -119,6 +150,8 @@ navigation.forEach(item => {
                 option.style.display = "block";
 
                 components.style.display = "flex";
+
+                insertAssetsVirola();
                 break;
 
             case 'menuImg': 
@@ -175,11 +208,26 @@ function insertAssetsPutumayo() {
 }
 
 function insertAssetsMisionCauchera() {
-    return false;
 }
 
 function insertAssetsApaporis() {
-    return false;
+    document.getElementById('santAugustineStatue1').src = santAugustineStatue1;
+    document.getElementById('santAugustineStatue2').src = santAugustineStatue2;
+    document.getElementById('santAugustineStatue3').src = santAugustineStatue3;
+    document.getElementById('santAugustineStatue4').src = santAugustineStatue4;
+    document.getElementById('santAugustineStatue5').src = santAugustineStatue5;
+    document.getElementById('macayaRiver').src = macayaRiver;
+    document.getElementById('chiribiqueteHill').src = chiribiqueteHill;
+    document.getElementById('SchultesSpecimen3Image').src = SchultesSpecimen3Image;
+    document.getElementById('vellozia1').src = vellozia1;
+    document.getElementById('heveaNitidia').src = heveaNitidia;
+    document.getElementById('aiaiuRiver').src = aiaiuRiver;
+    document.getElementById('castleHill').src = castleHill;
+    document.getElementById('naviaSchultesiana1').src = naviaSchultesiana1;
+    document.getElementById('naviaSchultesiana2').src = naviaSchultesiana2;
+    document.getElementById('bellHill1').src = bellHill1;
+    document.getElementById('castañoUribe').src = castañoUribe;
+    document.getElementById('richard2').src = richardImage2;
 }
 
 function insertAssetsCulturaIndigena() {
@@ -187,5 +235,6 @@ function insertAssetsCulturaIndigena() {
 }
 
 function insertAssetsVirola() {
-    return false;
+    document.getElementById('virola1').src = virola1;
+    document.getElementById('virola2').src = virola2;
 }

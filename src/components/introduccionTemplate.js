@@ -31,7 +31,7 @@ const introduccionTemplate = `
                 <img src="" alt="First explorations image" class="template__img" id="firstExplorations">
             </figure>
 
-            <div class="template__text template--lessWidth">
+            <div class="template__text template--lessWidthLeft">
                 <span class="template__span">Esta comunidad era una tribu indígena de cazadores recolectores, una de las naciones aborígenes estadounidenses que emigraron gradualmente desde el occidente de muntana a las llanuras del sur a principios el siglo XIX.</span>
 
                 <span class="template__span">Más sobre los Kioma: <a href="https://eduros.webcindario.com/los_kiowas.html" class="template__link">aqui</a></span>
@@ -64,7 +64,7 @@ const introduccionTemplate = `
                 <img src="" alt="Zone Peyote image" class="template__img" id="peyoteZone">
                 <span class="template__description">Distribución Geografía del peyote.</span>
             </figure>
-            <p class="template__text template--lessWidth">Este se utiliza en una ceremonia religiosa, realizada por mas de 30 grupos indigenas estadounidenses,  se ha utilizado como sacramento por mas de 5.000 años. Richard  concluyo que los cactus son considerados un remedio universal por estos grupos indigenas.</p>
+            <p class="template__text template--lessWidthLeft">Este se utiliza en una ceremonia religiosa, realizada por mas de 30 grupos indigenas estadounidenses,  se ha utilizado como sacramento por mas de 5.000 años. Richard  concluyo que los cactus son considerados un remedio universal por estos grupos indigenas.</p>
 
             <p class="template__text">A base de este viaje , Richard descubrio varias referencias a hongos alucinogenos utilizados por los aztecas con fines rituales. No satisfecho con estos hallazgos, Richard viajo a Oacaxa en primavera y en el verano de 1939 para buscar teonanacatl, por que se habia enterado del consumo de hongos. Encontro evidencia adicional entre los indigenas chinatecos y zapotecas en Latani, serca de Santiago Choapan pero sin tanta suerte  llego antes de la temporada de lluvias de junio y Julio siembargo no pudo recolectar especimenes. Los Chinantecos llamaban a los hongos como nañ-tau-ga y los usaban con objeto de adivinacion, como dato curioso Richard se entero que formulaban pequeñas dosis de cinco a ocho hongos durante varios dias para tratar los ataques graves de reumatismo.</p>
 
@@ -73,7 +73,7 @@ const introduccionTemplate = `
                 <span class="template__description">Teonanácatl, Carne De Dios, El Nombre Azteca Para Los Hongos Alucinógenos.</span>
             </figure>
 
-            <p class="template__text template--lessWidth">Estos hongos los utilizaban para inducir un estado semiconsciente, junto de un suave delirio, que su efecto era por 3 horas. Schultes explicó los efectos: Poco después de la ingestión de los hongos, el sujeto experimenta una sensación general de ligereza y bienestar. Esta sensación es seguida en una hora por hilaridad, conversaciones incoherentes, arrebatos emocionales incontrolados y, en las últimas etapas de intoxicación, por visiones fantásticas de colores brillantes, similares a las que a menudo se reportan sobre el peyote (Schultes, 1940, p. 435).</p>
+            <p class="template__text template--lessWidthLeft">Estos hongos los utilizaban para inducir un estado semiconsciente, junto de un suave delirio, que su efecto era por 3 horas. Schultes explicó los efectos: Poco después de la ingestión de los hongos, el sujeto experimenta una sensación general de ligereza y bienestar. Esta sensación es seguida en una hora por hilaridad, conversaciones incoherentes, arrebatos emocionales incontrolados y, en las últimas etapas de intoxicación, por visiones fantásticas de colores brillantes, similares a las que a menudo se reportan sobre el peyote (Schultes, 1940, p. 435).</p>
 
             <p class="template__text">Un análisis siguiente  realizado por el colega de Schultes, Albert Hofmann, casualmente extrajo mezclas de estos hongos que ayudaron a la creación de bloqueadores beta, importantes fármacos cardíacos.</p>
         </section>

@@ -46,6 +46,7 @@
 
     .template__section {
         align-items: center;
+        justify-content: space-between;
     }
 
     .template__title {
@@ -57,23 +58,31 @@
     }
 
     .template__list,
-    .template--lessWidth {
+    .template--lessWidthLeft,
+    .template--lessWidthRigth {
         width: 55%;
     }
 
     .template--moreWidth {
-        width: 50%;
+        width: 48%;
     }
 
     .template--wholeWidth {
         width: 100%;
     }
 
-    .template--lessWidth {
+    .template--lessWidthLeft {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
         padding-left: 23px;
+    }
+
+    .template--lessWidthRigth {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding-right: 23px;
     }
 
     .navList li:nth-child(1),
