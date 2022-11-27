@@ -60,8 +60,32 @@ import ancientWall2 from "@images/ancientWall2.jpg";
 import ancientWall3 from "@images/ancientWall3.jpg";
 import ancientWall4 from "@images/ancientWall4.jpg";
 import ancientWall5 from "@images/ancientWall5.jpg";
+import yayacopiStream1 from "@images/yayacopiStream1.jpg";
+import yayacopiStream2 from "@images/yayacopiStream2.jpg";
+import lowApaporis1 from "@images/lowApaporis1.jpg";
+import lowApaporis2 from "@images/lowApaporis2.jpg";
+import lowApaporis3 from "@images/lowApaporis3.jpg";
+import lowApaporis4 from "@images/lowApaporis4.jpg";
+import lowApaporis5 from "@images/lowApaporis5.jpg";
+import lowApaporis6 from "@images/lowApaporis6.jpg";
+import niStone1 from "@images/niStone1.jpg";
+import niStone2 from "@images/niStone2.jpg";
+import niStone3 from "@images/niStone3.jpg";
+import jaguarShamans1 from "@images/jaguarShamans1.jpg";
+import jaguarShamans2 from "@images/jaguarShamans2.jpg";
+import musicalInstruments1 from "@images/musicalInstruments1.jpg";
+import unexploredApaporisRiver1 from "@images/unexploredApaporisRiver1.jpg";
+import unexploredApaporisRiver2 from "@images/unexploredApaporisRiver2.jpg";
+import unexploredApaporisRiver3 from "@images/unexploredApaporisRiver3.jpg";
 
-// Cultura indígena images
+// Baile de los espiritus images
+import miritiParana1 from "@images/miritiParana1.jpg";
+import miritiParana2 from "@images/miritiParana2.jpg";
+import danceOfTheSpirits1 from "@images/danceOfTheSpirits1.jpg";
+import danceOfTheSpirits2 from "@images/danceOfTheSpirits2.jpg";
+import danceOfTheSpirits3 from "@images/danceOfTheSpirits3.jpg";
+import danceOfTheSpirits4 from "@images/danceOfTheSpirits4.jpg";
+import danceOfTheSpirits5 from "@images/danceOfTheSpirits5.jpg";
 
 // Virola images
 import virola1 from "@images/virola1.jpg";
@@ -73,13 +97,13 @@ const introduccionTemplate = require('./components/introduccionTemplate.js');
 const putumayoTemplate = require('./components/putumayoTemplate.js');
 const misionCaucheraTemplate = require('./components/misionCaucheraTemplate.js');
 const apaporisTemplate = require('./components/apaporisTemplate.js');
-const culturaIndigenaTemplate = require('./components/culturaIndigenaTemplate.js');
+const baileDeLosEspiritusTemplate = require('./components/baileDeLosEspiritusTemplate.js');
 const virolaTemplate = require('./components/virolaTemplate.js');
 
 const components = document.getElementById('components');
-components.appendChild(apaporisTemplate.main); // Append the introduction since the begining
+components.appendChild(baileDeLosEspiritusTemplate.main); // Append the introduction since the begining
 // insertAssetsIntroduction();
-insertAssetsApaporis();
+insertAssetsBaileDeLosEspiritus();
 
 document.getElementById('menuImg').src = menuImg;
 document.getElementById('titleImg').src = titleImg;
@@ -150,12 +174,14 @@ navigation.forEach(item => {
                 insertAssetsApaporis();
                 break;
 
-            case 'culturaIndigena':
-                appendComponent(culturaIndigenaTemplate.main);
+            case 'baileDeLosEspiritus':
+                appendComponent(baileDeLosEspiritusTemplate.main);
 
                 option.style.display = "block";
 
                 components.style.display = "flex";
+
+                insertAssetsBaileDeLosEspiritus();
                 break;
 
             case 'virola':
@@ -256,10 +282,33 @@ function insertAssetsApaporis() {
     document.getElementById('ancientWall3').src = ancientWall3;
     document.getElementById('ancientWall4').src = ancientWall4;
     document.getElementById('ancientWall5').src = ancientWall5;
+    document.getElementById('yayacopiStream1').src = yayacopiStream1;
+    document.getElementById('yayacopiStream2').src = yayacopiStream2;
+    document.getElementById('lowApaporis1').src = lowApaporis1;
+    document.getElementById('lowApaporis2').src = lowApaporis2;
+    document.getElementById('lowApaporis3').src = lowApaporis3;
+    document.getElementById('lowApaporis4').src = lowApaporis4;
+    document.getElementById('lowApaporis5').src = lowApaporis5;
+    document.getElementById('lowApaporis6').src = lowApaporis6;
+    document.getElementById('niStone1').src = niStone1;
+    document.getElementById('niStone2').src = niStone2;
+    document.getElementById('niStone3').src = niStone3;
+    document.getElementById('jaguarShamans1').src = jaguarShamans1;
+    document.getElementById('jaguarShamans2').src = jaguarShamans2;
+    document.getElementById('musicalInstruments1').src = musicalInstruments1;
+    document.getElementById('unexploredApaporisRiver1').src = unexploredApaporisRiver1;
+    document.getElementById('unexploredApaporisRiver2').src = unexploredApaporisRiver2;
+    document.getElementById('unexploredApaporisRiver3').src = unexploredApaporisRiver3;
 }
 
-function insertAssetsCulturaIndigena() {
-    return false;
+function insertAssetsBaileDeLosEspiritus() {
+    document.getElementById('miritiParana1').src = miritiParana1;
+    document.getElementById('miritiParana2').src = miritiParana2;
+    document.getElementById('danceOfTheSpirits1').src = danceOfTheSpirits1;
+    document.getElementById('danceOfTheSpirits2').src = danceOfTheSpirits2;
+    document.getElementById('danceOfTheSpirits3').src = danceOfTheSpirits3;
+    document.getElementById('danceOfTheSpirits4').src = danceOfTheSpirits4;
+    document.getElementById('danceOfTheSpirits5').src = danceOfTheSpirits5;
 }
 
 function insertAssetsVirola() {

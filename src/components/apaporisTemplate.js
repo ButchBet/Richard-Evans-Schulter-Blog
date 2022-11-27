@@ -242,6 +242,133 @@ const apaporisTemplate = `
                 <img src="" alt="Muralla antiga 5 image" class="template__img" id="ancientWall5">
             </figure>
         </section>
+
+        <section class="template__section">
+            <h2 class="template__title">Raudal de Yayacopi</h2>
+
+            <figure class="template__figure">
+                <img src="" alt="Raudal de Yayacopi 1 image" class="template__img" id="yayacopiStream1">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Luego de salir del cañón de Jirijirimo, el Apaporis reanuda su tranquilo camino por otros 8 kilómetros, hasta llegar a una gigantesca cascada a modo de herradura popular como Yayacopi. Schultes redactó después que "las caídas estruendosas de Yayacopi fusionan miedo en los corazones de los nativos del territorio, acostumbrados a las fuerzas titánicas de las aguas enojadas por cada una de piezas en la cuenca de Apaporis".</p>            
+            
+            <p class="template__text template--lessWidthRight">Los raudales del Apaporis, de los cuales el Yayacopi y el Jirijirimo son los mayores, poseen un profundo sentido espiritual para los macunas y otras tribus del bajo Apaporis. Los conjuntos nativos locales comentan que en tiempos viejos una feroz tribu residía las cabeceras del flujo de agua Apaporis. Unidos, levantaron una secuencia de montañas por medio del Apaporis, conformando rápidos traidores e intransitables llenos de hechizos mágicos que han salvaguardado a partir de entonces a los equipos nativos del Bajo Apaporis.   Schultes observó que el chamán macuna hacía peregrinaciones para hacer complejos encantos al pie del Yayacopi. El macuna además remaba a lo largo de diversos días para pescar en los remolinos ricamente abastecidos en la base de las cataratas.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Raudal de Yayacopi 2 image" class="template__img" id="yayacopiStream2">
+            </figure>
+        </section>
+
+        <section class="template__section">
+            <h2 class="template__title">El Bajo Apaporis: Corazón del mundo</h2>
+
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 1 image" class="template__img" id="lowApaporis1">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Mientras tanto que la cuenca alta del flujo de agua era enteramente abandonada, la zona baja del Apaporis, que se extendía a partir de Jirijirimo hasta los rápidos en La Independencia e integraba sus primordiales afluentes, los ríos Pira Piraná y Popeyacá, estaban densamente poblados por pueblos nativos que viven en malocas monumentales de maneras circulares y rectangulares.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 2 image" class="template__img" id="lowApaporis2">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">El bajo Apaporis es una zona de importante variedad cultural que aloja una enorme proporción de conjuntos nativos que integran a los macunas, barasanas, taiwanos, tayutas, tanimucas, cubeos, tairanos y letuamas.</p>            
+            
+            <p class="template__text template--lessWidthRight">A medida que estaba en el bajo Apaporis, Schultes trabajaba a menudo con los macunas, un conjunto indígena con una población de alrededor de 1.000 personas que residen primordialmente en el bajo flujo de agua Pira Piraná y sus afluentes. Los macunas se organizan en 12-15 clanes patrilineales y cada clan desciende de ancestros míticos específicos que han estado presentes en la construcción de todo el mundo</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 3 image" class="template__img" id="lowApaporis3">
+            </figure>
+
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 4 image" class="template__img" id="lowApaporis4">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Resulta fascinante que los macunas no perciben la división entre los humanos y el planeta natural, puesto que no poseen un vocablo para la naturaleza.</p>
+
+            <p class="template__text template--lessWidthRight">Schultes encontró que este territorio cultural y lingüísticamente cada grupo étnico tenía distintos usos medicinales e historias orales para las plantas locales.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 5 image" class="template__img" id="lowApaporis5">
+            </figure>
+
+            <figure class="template__figure">
+                <img src="" alt="Bajo apaporis 6 image" class="template__img" id="lowApaporis6">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Curiosamente, en algunos de estos grupos culturales se espera que los miembros de la comunidad se casen con alguien de un grupo lingüístico diferente y aprendan su idioma, lo que resulta en un multilingüismo notable entre gran parte de la población.</p>
+        </section>
+
+        <section class="template__section">
+            <h2 class="template__title">Piedra Ñi</h2>
+
+            <p class="template__text template--lessWidthRight">Después de un día de remo, al borde del río se encontraron con un inmenso diseño estilizado y antropomórfico tallado en una gigantesca roca de granito.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Piedra Ñi 1 image" class="template__img" id="niStone1">
+            </figure>
+
+            <figure class="template__figure">
+                <img src="" alt="Piedra Ñi 2 image" class="template__img" id="niStone2">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Los Ayawa, también conocidos como los antepasados primordiales o los Truenos, subieron por el río Leche desde el este y pasaron por la Puerta del Agua, empujando ante ellos como arados las trompetas sagradas de Yuruparí, creando valles y cascadas. Derrotando a los monstruos, transformándolos en piedra, los Ayawa ordenaron el universo, haciendo que la esencia y la energía del mundo natural se liberaran en beneficio de todas las criaturas sensibles y de todas las formas de vida . En esta historia, después de crear los ríos y montañas, los Ayawa fertilizaron a la ancestral mujer chamán, antes de ascender a los cielos para convertirse en truenos y relámpagos.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Piedra Ñi 3 image" class="template__img" id="niStone3">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Mientras nadaban, se detuvieron para proporcionar regalos de conocimiento y plantas sagradas, creando en el proceso una multitud de sitios sagrados con una poderosa energía cósmica. Los sitios sagrados tienen ubicaciones físicas tangibles que abarcan áreas circulares de aproximadamente un kilómetro de diámetro, frecuentemente con muchos sitios pequeños sagrados ubicados adentro. A simple vista, estos sitios se parecen rocas, rápidos, ríos, montañas y salinas, pero los chamanes locales informan que ven un reino con enormes malocas bellamente decoradas habitadas por hombres adornados con intrincadas vestiduras ceremoniales.</p>            
+            </figure>
+        </section>
+
+        <section class="template__section">
+            <h2 class="template__title">Los chamanes jaguares del Yuruparí</h2>
+
+            <figure class="template__figure">
+                <img src="" alt="Chamanes Jaguares 1 image" class="template__img" id="jaguarShamans1">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Los grupos de habla tucano de la región del Apaporis y el Vaupés practican ceremonias de acuerdo con los calendarios anuales de cosecha, que creen mantienen el equilibrio espiritual y la prosperidad dentro de sus territorios. Una de las ceremonias más importantes es el Baile del Yuruparí, que celebra la creación del universo y sirve como rito de iniciación para los jóvenes. Durante estas ceremonias, los hombres tocan elaboradas flautas de corteza que representan a los ancestros deificados del clan y forman una parte importante de la identidad colectiva de las comunidades.</p>            
+            
+            <figure class="template__figure">
+                <img src="" alt="Chamanes Jaguares 2 image" class="template__img" id="jaguarShamans2">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Durante las ceremonias los chamanes jaguares administran yagé , coca, tabaco y chicha . En sus cantos, los chamanes recitan los nombres de los sitios sagrados llenos de ketioka, siguiendo un orden similar a las letras en un alfabeto conocido como los «Caminos del Pensamiento.» Cuando las poderosas plantas medicinales producen su efecto, los chamanes entran en trance. Ellos dicen que en este estado emprenden vastos viajes espirituales a lugares sagrados lejanos a lo largo de estos «Caminos del Pensamiento.»Los sitios sagrados visitados por los chamanes jaguares, en particular las montañas rocosas que se alzan sobre el dosel del bosque, se consideran pilares que sostienen una enorme «Maloca Cósmica» en la cual el cielo es el techo. Durante las ceremonias, los chamanes jaguar recrean la formación del Universo a medida que viajan a través de la Maloca Cósmica, siguiendo los caminos de pensamiento espiritual a través del aire y el agua.</p>            
+        </section>
+
+        <section class="template__section">
+            <h2 class="template__title">Instrumentos musicales de las ceremonias</h2>
+
+            <figure class="template__figure">
+                <img src="" alt="Instrumentos musicales 1 image" class="template__img" id="musicalInstruments1">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Los grupos de habla tucano de la región del Apaporis y el Vaupés practican ceremonias de acuerdo con los calendarios anuales de cosecha, que creen mantienen el equilibrio espiritual y la prosperidad dentro de sus territorios. Una de las ceremonias más importantes es el Baile del Yuruparí, que celebra la creación del universo y sirve como rito de iniciación para los jóvenes. Durante estas ceremonias, los hombres tocan elaboradas flautas de corteza que representan a los ancestros deificados del clan y forman una parte importante de la identidad colectiva de las comunidades.</p>            
+        </section>
+
+        <section class="template__section">
+            <h2 class="template__title">Mapeo del inexplorado río Apaporis</h2>
+
+            <figure class="template__figure">
+                <img src="" alt="Inexplorado rio Apaporis 1 image" class="template__img" id="unexploredApaporisRiver1">
+            </figure>
+            
+            <p class="template__text template--lessWidthLeft">Schultes regresó a la región del bajo Apaporis a principios de la década de 1950 cuando estableció estaciones de investigación sobre el caucho en Jinogoje   y Soratama  . Desde esta base, Schultes pudo estudiar minuciosamente la cuenca baja del Apaporis, incluyendo tres ascensos a la cima del cima del Cerro Isibukuri, y la exploración de la Pira Paraná, desde una maloca ubicada cerca del caño E-ree-ee-ko-mee-o-kee y hasta el último punto navegable en el último punto navegable en el Caño Teemeeña. Decían que el célebre botánico norteamericano Richard Evans Schultes era una persona muy tranquila y respetuosa con los indígenas y además les daba dulces y bombones a cambio de flores y plantas que recolectaban en la selva. Es evidente que la personalidad y las actitudes de Schultes contrastaban radicalmente con el comportamiento de los otros blancos.</p>            
+           
+            <p class="template__text">En el transcurso de sus viajes por el Apaporis, Schultes trabajó para cartografiar el río inexplorado. Primero, Schultes recorrió aproximadamente un kilómetro a orillas de un río determinado y marcó cada extremo con una bandera blanca. Mientras tanto, Schultes usó su brújula para hacer un seguimiento a la orientación del barco, permitiéndole trazar el curso del río. El cuaderno de campo de Schultes incluye bocetos del río y anotaciones de lugares significativos.</p>            
+            
+            <p class="template__text">Utilizando toda esta información, Schultes produjo un mapa del río Apaporis que sería útil durante muchos años.</p>            
+
+            <figure class="template__figure template--wholeWidth">
+                <img src="" alt="Inexplorado rio Apaporis 2 image" class="template__img" id="unexploredApaporisRiver2">
+            </figure>
+
+            <figure class="template__figure template--wholeWidth">
+                <img src="" alt="Inexplorado rio Apaporis 3 image" class="template__img" id="unexploredApaporisRiver3">
+            </figure>
+        </section>
     </div>
 `
 
