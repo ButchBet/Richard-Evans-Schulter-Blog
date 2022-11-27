@@ -27,6 +27,19 @@ import indogenousImage from "@images/indogena.jpg";
 import aYoungKamentsáBoyImage from "@images/UnJovenDeKamentsa.jpg";
 
 // Misión Cauchera images
+import missionCauchera1 from "@images/missionCauchera1.jpg";
+import missionCauchera2 from "@images/missionCauchera2.jpg";
+import missionCauchera3 from "@images/missionCauchera3.jpg";
+import missionCauchera4 from "@images/missionCauchera4.jpg";
+import missionCauchera5 from "@images/missionCauchera5.jpg";
+import missionCauchera6 from "@images/missionCauchera6.jpg";
+import missionCauchera7 from "@images/missionCauchera7.jpg";
+import missionCauchera8 from "@images/missionCauchera8.jpg";
+import missionCauchera9 from "@images/missionCauchera9.jpg";
+import missionCauchera10 from "@images/missionCauchera10.jpg";
+import missionCauchera11 from "@images/missionCauchera11.jpg";
+import missionCauchera12 from "@images/missionCauchera12.jpg";
+import missionCauchera13 from "@images/missionCauchera13.jpg";
 
 // Apaporis images
 import santAugustineStatue1 from "@images/estatuaSanAgustin1.jpg";
@@ -101,9 +114,8 @@ const baileDeLosEspiritusTemplate = require('./components/baileDeLosEspiritusTem
 const virolaTemplate = require('./components/virolaTemplate.js');
 
 const components = document.getElementById('components');
-components.appendChild(baileDeLosEspiritusTemplate.main); // Append the introduction since the begining
-// insertAssetsIntroduction();
-insertAssetsBaileDeLosEspiritus();
+components.appendChild(introduccionTemplate.main); // Append the introduction since the begining
+insertAssetsIntroduction();
 
 document.getElementById('menuImg').src = menuImg;
 document.getElementById('titleImg').src = titleImg;
@@ -162,6 +174,8 @@ navigation.forEach(item => {
                 option.style.display = "block";
 
                 components.style.display = "flex";
+
+                insertAssetsMisionCauchera();
                 break;
 
             case 'apaporis':
@@ -248,6 +262,19 @@ function insertAssetsPutumayo() {
 }
 
 function insertAssetsMisionCauchera() {
+    document.getElementById('missionCauchera1').src = missionCauchera1;
+    document.getElementById('missionCauchera2').src = missionCauchera2;
+    document.getElementById('missionCauchera3').src = missionCauchera3;
+    document.getElementById('missionCauchera4').src = missionCauchera4;
+    document.getElementById('missionCauchera5').src = missionCauchera5;
+    document.getElementById('missionCauchera6').src = missionCauchera6;
+    document.getElementById('missionCauchera7').src = missionCauchera7;
+    document.getElementById('missionCauchera8').src = missionCauchera8;
+    document.getElementById('missionCauchera9').src = missionCauchera9;
+    document.getElementById('missionCauchera10').src = missionCauchera10;
+    document.getElementById('missionCauchera11').src = missionCauchera11;
+    document.getElementById('missionCauchera12').src = missionCauchera12;
+    document.getElementById('missionCauchera13').src = missionCauchera13;
 }
 
 function insertAssetsApaporis() {
