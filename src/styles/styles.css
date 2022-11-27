@@ -10,7 +10,7 @@
 }
 
 :root {
-    --black: #353535;
+    --black: #000000;
     --white: #FFFFFF;
     --grey: #D2D7DF;
     --light-brown: #BDBBB0;
@@ -54,14 +54,16 @@ html {
  .template,
  .template__list,
  .template__section,
- .components  {
+ .components,
+ .footer {
     display: flex;
  }
 
  .header__title,
  .title,
  .menu,
- .template__section {
+ .template__section,
+ .footer {
     flex-flow: row wrap;
  }
 
@@ -77,17 +79,20 @@ html {
 
  .title,
  .navList,
- .components {
+ .components,
+ .footer {
     justify-content: center;
  }
 
  .header__title,
  .title,
- .menu {
+ .menu,
+ .footer {
     align-content: center;
  }
 
- .navList {
+ .navList,
+ .footer {
     align-items: center;
  }
 
@@ -138,13 +143,18 @@ html {
     letter-spacing: 4.5px;
 }
 
-.header__nav,
-.components {
-    width: 100%;
-}
-
 .template {
     max-width: 800px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.header__nav,
+.components,
+.footer {
+    width: 100%;
 }
 
 .header__nav,
@@ -305,6 +315,15 @@ html {
 
 #virolaTemplate {
     background: var(--background6);
+}
+
+.footer {
+    background: var(--black);
+}
+
+.footer__link {
+    color: var(--white);
+    text-decoration: none;
 }
 
 #illustrationOfPachyphyllumSchultesii,

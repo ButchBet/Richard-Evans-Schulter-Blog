@@ -4,6 +4,7 @@ import '@styles/desktop.css';
 
 import menuImg from '@images/icons/menu.png';
 import titleImg from "@images/logos/pageLogo2.png";
+import act from "@images/logos/act.png";
 
 // Introduction images
 import richardImage from "@images/richard.png";
@@ -119,6 +120,7 @@ insertAssetsIntroduction();
 
 document.getElementById('menuImg').src = menuImg;
 document.getElementById('titleImg').src = titleImg;
+document.getElementById('amazonTeam').src = act;
 
 // Script to catch the click event in each nav item
 const navigation = Array.from(document.getElementsByClassName('navList__item'));
