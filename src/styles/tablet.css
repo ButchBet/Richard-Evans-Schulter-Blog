@@ -59,7 +59,7 @@
 
     .template__list,
     .template--lessWidthLeft,
-    .template--lessWidthRigth {
+    .template--lessWidthRight {
         width: 55%;
     }
 
@@ -78,7 +78,7 @@
         padding-left: 23px;
     }
 
-    .template--lessWidthRigth {
+    .template--lessWidthRight {
         display: flex;
         flex-flow: column;
         justify-content: space-between;

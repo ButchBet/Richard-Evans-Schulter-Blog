@@ -18,7 +18,7 @@ const virolaTemplate = `
             <p class="template__text">Los brotes de Virola oleifera producen lignano-7-ols y verrucosina con acción antifúngica a Cladosporium sphaerospermum en dosis tan bajas como 25 microgramos. El lignano-7-ols oleiferina-B y oleiferina-G trabajan en C. cladosporoides a dosis tan bajas como 10 microgramos.</p>
         </section>
 
-        <section class="template__section>
+        <section class="template__section">
             <h2 class="template__title">Rapé de Virola para la medicina, la magia y la profecía</h2>
 
             <p class="template__text">El rapé preparado con la corteza interna de varias especies de Virola es extremadamente importante en la vida de los indígenas de muchas tribus de la Amazonía noroccidental de Brasil, Colombia y el Alto Orinoco de Venezuela. A pesar de su importancia, parece que por un tiempo no fue reconocido y se confundió en la literatura con otras preparaciones de rapé. Fue mencionado por primera vez, pero sin la identificación botánica, en un informe antropológico sobre Venezuela de 1923. La identificación definitiva de la especie de Virola se hizo en 1954, sobre la base de especímenes recolectados en Colombia. Los ingredientes activos en las preparaciones psicoac-tivas de Virola son las triptaminas.</p>

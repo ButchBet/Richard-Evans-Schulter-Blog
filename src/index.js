@@ -46,6 +46,20 @@ import naviaSchultesiana2 from "@images/naviaSchultesiana2.jpg";
 import bellHill1 from "@images/bellHill1.jpg";
 import castañoUribe from "@images/castañoUribe.jpg";
 import richardImage2 from "@images/richard2.jpg";
+import indigenous1 from "@images/indigenous1.jpg";
+import indigenous2 from "@images/indigenous2.jpg";
+import apaporisRiver1 from "@images/apaporisRiver1.jpg";
+import apaporisRiver2 from "@images/apaporisRiver2.jpg";
+import apaporisRiver3 from "@images/apaporisRiver3.jpg";
+import apaporisRiver4 from "@images/apaporisRiver4.jpg";
+import apaporisRiver5 from "@images/apaporisRiver5.jpg";
+import apaporisRiver6 from "@images/apaporisRiver6.jpg";
+import websTree from "@images/websTree.jpg";
+import ancientWall1 from "@images/ancientWall1.jpg";
+import ancientWall2 from "@images/ancientWall2.jpg";
+import ancientWall3 from "@images/ancientWall3.jpg";
+import ancientWall4 from "@images/ancientWall4.jpg";
+import ancientWall5 from "@images/ancientWall5.jpg";
 
 // Cultura indígena images
 
@@ -63,9 +77,9 @@ const culturaIndigenaTemplate = require('./components/culturaIndigenaTemplate.js
 const virolaTemplate = require('./components/virolaTemplate.js');
 
 const components = document.getElementById('components');
-components.appendChild(introduccionTemplate.main); // Append the introduction since the begining
-insertAssetsIntroduction();
-// insertAssetsApaporis();
+components.appendChild(apaporisTemplate.main); // Append the introduction since the begining
+// insertAssetsIntroduction();
+insertAssetsApaporis();
 
 document.getElementById('menuImg').src = menuImg;
 document.getElementById('titleImg').src = titleImg;
@@ -228,6 +242,20 @@ function insertAssetsApaporis() {
     document.getElementById('bellHill1').src = bellHill1;
     document.getElementById('castañoUribe').src = castañoUribe;
     document.getElementById('richard2').src = richardImage2;
+    document.getElementById('indigenous1').src = indigenous1;
+    document.getElementById('indigenous2').src = indigenous2;
+    document.getElementById('apaporisRiver1').src = apaporisRiver1;
+    document.getElementById('apaporisRiver2').src = apaporisRiver2;
+    document.getElementById('apaporisRiver3').src = apaporisRiver3;
+    document.getElementById('apaporisRiver4').src = apaporisRiver4;
+    document.getElementById('apaporisRiver5').src = apaporisRiver5;
+    document.getElementById('apaporisRiver6').src = apaporisRiver6;
+    document.getElementById('websTree').src = websTree;
+    document.getElementById('ancientWall1').src = ancientWall1;
+    document.getElementById('ancientWall2').src = ancientWall2;
+    document.getElementById('ancientWall3').src = ancientWall3;
+    document.getElementById('ancientWall4').src = ancientWall4;
+    document.getElementById('ancientWall5').src = ancientWall5;
 }
 
 function insertAssetsCulturaIndigena() {
