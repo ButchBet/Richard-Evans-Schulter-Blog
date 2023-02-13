@@ -2,19 +2,15 @@
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Links](#links)
+- [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 
-
-## Overview
-This is a blog created to expose the work done by Richard Evans Schulter in the Amazon.
-### Links
+## Links
 - Solution URL: [GitHub](https://github.com/ButchBet/Richard-Evans-Schulter-Blog)
 - Live Site URL: [RES](https://restravel.netlify.app/)
 
-### Built with
+## Built with
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
